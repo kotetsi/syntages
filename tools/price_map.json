@@ -430,5 +430,95 @@
   "sku": "1223190",
   "mode": "kg",
   "factor": 1
+ },
+ "prasa": {
+  "query": "πράσα",
+  "sku": "8429441",
+  "mode": "kg",
+  "factor": 1
+ },
+ "gavros": {
+  "query": "γαύρος",
+  "sku": "1670502",
+  "mode": "kg",
+  "factor": 1
+ },
+ "pantzaria": {
+  "query": "παντζάρια",
+  "sku": "8428302",
+  "mode": "kg",
+  "factor": 1
+ },
+ "mavromatika": {
+  "query": "μαυρομάτικα",
+  "sku": "1223418",
+  "mode": "kg",
+  "factor": 1
+ },
+ "manitaria": {
+  "query": "μανιτάρια λευκά",
+  "sku": "1373838",
+  "mode": "kg",
+  "factor": 1
+ },
+ "mprizoles": {
+  "query": "μπριζόλα χοιρινή",
+  "sku": "1252962",
+  "mode": "kg",
+  "factor": 1
+ },
+ "amygdala": {
+  "query": "αμύγδαλα ψίχα ψημένα",
+  "sku": "1223263",
+  "mode": "kg",
+  "factor": 1
+ },
+ "achni": {
+  "query": "ζάχαρη άχνη",
+  "sku": "1233376",
+  "mode": "kg",
+  "factor": 1
+ },
+ "meli": {
+  "query": "μέλι ανθέων",
+  "sku": "1532442",
+  "mode": "kg",
+  "factor": 1
+ },
+ "maya": {
+  "query": "μαγιά ξηρή",
+  "sku": "4017281",
+  "mode": "kg",
+  "factor": 1
+ },
+ "garyfallo": {
+  "query": "γαρίφαλο",
+  "sku": "1223271",
+  "mode": "kg",
+  "factor": 1
+ },
+ "bakaliaros_fileto": {
+  "query": "μπακαλιάρος φιλέτο",
+  "sku": "1221403",
+  "mode": "kg",
+  "factor": 1
+ },
+ "ilieleo": {
+  "query": "ηλιέλαιο",
+  "sku": "1221641",
+  "mode": "kg",
+  "factor": 1
+ },
+ "konyak": {
+  "query": "κονιάκ",
+  "sku": "6495204",
+  "mode": "kg",
+  "factor": 1
+ },
+ "vanilia": {
+  "query": "βανιλίνη",
+  "sku": "1221511",
+  "mode": "piece",
+  "factor": 0.2
  }
 }

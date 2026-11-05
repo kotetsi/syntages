@@ -23,7 +23,7 @@
       rows[n].querySelector(".amt").textContent = qty(i, f);
       rows[n].querySelector(".ic").textContent = eur(c);
     });
-    document.getElementById("sv").textContent = serv + " μερίδες";
+    document.getElementById("sv").textContent = serv + " " + (d.label || "μερίδες");
     document.getElementById("tsv").textContent = "για " + serv;
     document.getElementById("tot").textContent = eur(total);
     document.getElementById("pp").textContent = eur(total / serv);

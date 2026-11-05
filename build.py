@@ -120,7 +120,7 @@ def build_home(rs):
       <a class="card" href="syntages/{r['slug']}/" data-cats="{e('|'.join(r['categories']))}">
         {photo(r, '', 'Φωτογραφία: ' + r['title'])}
         <h3>{e(r['title'])}</h3>
-        <div class="meta"><span class="cost-pill">{eur(r['per'])} <small>/ μερίδα</small></span><span>{r['prep'] + r['cook']}′</span><span>{e(r['difficulty'])}</span></div>
+        <div class="meta"><span class="cost-pill">{eur(r['per'])} <small>/ {r.get('serving_label', ['', 'μερίδα'])[1]}</small></span><span>{r['prep'] + r['cook']}′</span><span>{e(r['difficulty'])}</span></div>
       </a>""" for r in rs)
     body = f"""
     <p class="eyebrow">Ελληνικές συνταγές με κόστος</p>
@@ -134,7 +134,7 @@ def build_home(rs):
 def schema(r, path):
     s = {"@context": "https://schema.org", "@type": "Recipe", "name": r["title"], "description": r["intro"],
          "recipeCategory": r["categories"][0], "recipeCuisine": "Ελληνική", "keywords": ", ".join(r["categories"]),
-         "recipeYield": f"{r['servings']} μερίδες",
+         "recipeYield": f"{r['servings']} {r.get('serving_label', ['μερίδες'])[0]}",
          "prepTime": f"PT{r['prep']}M", "cookTime": f"PT{r['cook']}M", "totalTime": f"PT{r['prep'] + r['cook']}M",
          "estimatedCost": {"@type": "MonetaryAmount", "currency": "EUR", "value": f"{r['total']:.2f}"},
          "recipeIngredient": [f"{qty(i)} {i['text']}" for i in r["ingredients"]],
@@ -154,9 +154,10 @@ def schema(r, path):
 def build_recipe(r):
     path = f"syntages/{r['slug']}/"
     root = "../../"
+    SL = r.get("serving_label", ["μερίδες", "μερίδα"])
     items = "".join(f'<li><span><span class="amt">{qty(i)}</span> {e(i["text"])}</span><span class="ic">{eur(ing_cost(i))}</span></li>'
                     for i in r["ingredients"])
-    data = {"servings": r["servings"], "ingredients": [
+    data = {"servings": r["servings"], "label": SL[0], "ingredients": [
         {"qty": i["qty"], "show": i.get("show"), "unit": PRICES[i["item"]]["unit"], "cost": ing_cost(i)} for i in r["ingredients"]]}
     body = f"""
     <a href="{root}" class="crumb">← Όλες οι συνταγές</a>
@@ -169,7 +170,7 @@ def build_recipe(r):
           <div><span>Προετοιμασία</span><b>{r['prep']}′</b></div>
           <div><span>Μαγείρεμα</span><b>{r['cook']}′</b></div>
           <div><span>Δυσκολία</span><b>{e(r['difficulty'])}</b></div>
-          <div><span>Ανά μερίδα</span><b id="pp">{eur(r['per'])}</b></div>
+          <div><span>Ανά {SL[1]}</span><b id="pp">{eur(r['per'])}</b></div>
         </div>
         <a class="jump" href="#syntagi">Πήγαινε στη συνταγή ↓</a>
       </div>
@@ -180,7 +181,7 @@ def build_recipe(r):
         <h2>Υλικά</h2>
         <div class="servings">
           <button id="minus" type="button" aria-label="Λιγότερες μερίδες">−</button>
-          <output id="sv" aria-live="polite">{r['servings']} μερίδες</output>
+          <output id="sv" aria-live="polite">{r['servings']} {SL[0]}</output>
           <button id="plus" type="button" aria-label="Περισσότερες μερίδες">+</button>
         </div>
         <ul class="ing" id="ing">{items}</ul>
