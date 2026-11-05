@@ -8,7 +8,7 @@
  "prep": 20,
  "cook": 50,
  "difficulty": "Μέτρια",
- "image": "https://images.unsplash.com/photo-1555475337-7a243bada82e?w=1200&q=80&auto=format&fit=crop",
+ "image": "",
  "intro": "Σιροπιαστό γλυκό ταψιού με τριμμένο φύλλο κρούστας, γιαούρτι και φρέσκο χυμό πορτοκαλιού. Αφράτη μέσα και ζουμερή.",
  "ingredients": [
   {
@@ -79,10 +79,5 @@
   "Ζεστό γλυκό με κρύο σιρόπι, ποτέ και τα δύο ζεστά.",
   "Σερβίρεται μόνη της ή με μια μπάλα παγωτό βανίλια.",
   "Κρατάει 4–5 μέρες σκεπασμένη."
- ],
- "image_credit": {
-  "name": "Cats coming",
-  "source": "Unsplash",
-  "url": "https://unsplash.com/photos/orange-pie-on-plate-bDNxF3nzOBE"
- }
+ ]
 }
