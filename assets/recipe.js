@@ -29,7 +29,7 @@
     document.getElementById("pp").textContent = eur(total / serv);
   }
   document.getElementById("minus").addEventListener("click", function () { if (serv > 1) { serv--; draw(); } });
-  document.getElementById("plus").addEventListener("click", function () { if (serv < 20) { serv++; draw(); } });
+  document.getElementById("plus").addEventListener("click", function () { if (serv < Math.max(20, d.servings * 3)) { serv++; draw(); } });
   draw();
 })();
 
