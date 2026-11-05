@@ -8,6 +8,7 @@
   var half = function (n) { var r = Math.round(n * 2) / 2; return r % 1 ? r.toLocaleString("el-GR", { minimumFractionDigits: 1 }) : String(r); };
   function qty(i, f) {
     if (i.show) return half(i.show[0] * f) + " " + i.show[1];
+    if (i.unit === "τεμ") return half(i.qty * f) + " τεμ.";
     var unit = i.unit === "l" ? "ml" : "g";
     var q = i.qty * f;
     q = q >= 100 ? Math.round(q / 10) * 10 : Math.max(1, Math.round(q));

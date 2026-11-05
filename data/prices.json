@@ -96,6 +96,186 @@
    "name": "Μουστάρδα",
    "price": 6.0,
    "unit": "kg"
+  },
+  "melitzanes": {
+   "name": "Μελιτζάνες",
+   "price": 2.2,
+   "unit": "kg"
+  },
+  "gala": {
+   "name": "Γάλα φρέσκο",
+   "price": 1.4,
+   "unit": "l"
+  },
+  "voutyro": {
+   "name": "Βούτυρο",
+   "price": 10.0,
+   "unit": "kg"
+  },
+  "alevri": {
+   "name": "Αλεύρι για όλες τις χρήσεις",
+   "price": 1.0,
+   "unit": "kg"
+  },
+  "avga": {
+   "name": "Αυγά",
+   "price": 0.35,
+   "unit": "τεμ"
+  },
+  "moschokarydo": {
+   "name": "Μοσχοκάρυδο",
+   "price": 40.0,
+   "unit": "kg"
+  },
+  "ntomates": {
+   "name": "Ντομάτες φρέσκες",
+   "price": 2.5,
+   "unit": "kg"
+  },
+  "piperies": {
+   "name": "Πιπεριές πράσινες",
+   "price": 3.2,
+   "unit": "kg"
+  },
+  "ryzi_glase": {
+   "name": "Ρύζι γλασέ",
+   "price": 2.6,
+   "unit": "kg"
+  },
+  "ryzi_karolina": {
+   "name": "Ρύζι καρολίνα",
+   "price": 2.8,
+   "unit": "kg"
+  },
+  "dyosmos": {
+   "name": "Δυόσμος (ματσάκι)",
+   "price": 0.9,
+   "unit": "τεμ"
+  },
+  "maintanos": {
+   "name": "Μαϊντανός (ματσάκι)",
+   "price": 0.8,
+   "unit": "τεμ"
+  },
+  "anithos": {
+   "name": "Άνηθος (ματσάκι)",
+   "price": 0.8,
+   "unit": "τεμ"
+  },
+  "fakes": {
+   "name": "Φακές ψιλές",
+   "price": 2.8,
+   "unit": "kg"
+  },
+  "revithia": {
+   "name": "Ρεβίθια",
+   "price": 3.0,
+   "unit": "kg"
+  },
+  "kolokythakia": {
+   "name": "Κολοκυθάκια",
+   "price": 2.5,
+   "unit": "kg"
+  },
+  "fasolakia": {
+   "name": "Φασολάκια πλατιά",
+   "price": 4.5,
+   "unit": "kg"
+  },
+  "aggouri": {
+   "name": "Αγγούρι",
+   "price": 0.6,
+   "unit": "τεμ"
+  },
+  "feta": {
+   "name": "Φέτα",
+   "price": 11.0,
+   "unit": "kg"
+  },
+  "elies": {
+   "name": "Ελιές Καλαμών",
+   "price": 9.0,
+   "unit": "kg"
+  },
+  "giaourti": {
+   "name": "Γιαούρτι στραγγιστό",
+   "price": 5.5,
+   "unit": "kg"
+  },
+  "xydi": {
+   "name": "Ξίδι",
+   "price": 2.0,
+   "unit": "l"
+  },
+  "spanaki": {
+   "name": "Σπανάκι",
+   "price": 3.5,
+   "unit": "kg"
+  },
+  "fyllo": {
+   "name": "Φύλλο κρούστας (πακέτο 450 g)",
+   "price": 2.8,
+   "unit": "τεμ"
+  },
+  "kremmydakia": {
+   "name": "Φρέσκα κρεμμυδάκια (ματσάκι)",
+   "price": 0.8,
+   "unit": "τεμ"
+  },
+  "moschari": {
+   "name": "Μοσχάρι χωρίς κόκαλο",
+   "price": 14.0,
+   "unit": "kg"
+  },
+  "kritharaki": {
+   "name": "Κριθαράκι",
+   "price": 2.2,
+   "unit": "kg"
+  },
+  "kotopoulo_olo": {
+   "name": "Κοτόπουλο ολόκληρο",
+   "price": 4.2,
+   "unit": "kg"
+  },
+  "gigantes": {
+   "name": "Γίγαντες",
+   "price": 7.0,
+   "unit": "kg"
+  },
+  "psomi": {
+   "name": "Ψωμί μπαγιάτικο",
+   "price": 2.2,
+   "unit": "kg"
+  },
+  "kymino": {
+   "name": "Κύμινο",
+   "price": 30.0,
+   "unit": "kg"
+  },
+  "krasi": {
+   "name": "Κρασί κόκκινο",
+   "price": 5.0,
+   "unit": "l"
+  },
+  "zachari": {
+   "name": "Ζάχαρη",
+   "price": 1.2,
+   "unit": "kg"
+  },
+  "bachari": {
+   "name": "Μπαχάρι",
+   "price": 30.0,
+   "unit": "kg"
+  },
+  "xylopites": {
+   "name": "Χυλοπίτες",
+   "price": 2.6,
+   "unit": "kg"
+  },
+  "amylo": {
+   "name": "Άμυλο αραβοσίτου",
+   "price": 4.0,
+   "unit": "kg"
   }
  }
 }

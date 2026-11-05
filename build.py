@@ -36,6 +36,8 @@ def half(n):
 def qty(i, f=1.0):
     if i.get("show"):
         return f"{half(i['show'][0] * f)} {i['show'][1]}"
+    if PRICES[i["item"]]["unit"] == "τεμ":
+        return f"{half(i['qty'] * f)} τεμ."
     unit = "ml" if PRICES[i["item"]]["unit"] == "l" else "g"
     q = i["qty"] * f
     q = round(q / 10) * 10 if q >= 100 else max(1, round(q))
@@ -48,7 +50,8 @@ def qty(i, f=1.0):
 def ing_cost(i):
     if i["item"] not in PRICES:
         sys.exit(f"Λείπει τιμή για το υλικό '{i['item']}' στο data/prices.json")
-    return PRICES[i["item"]]["price"] * i["qty"] / 1000
+    x = PRICES[i["item"]]
+    return x["price"] * i["qty"] if x["unit"] == "τεμ" else x["price"] * i["qty"] / 1000
 
 
 def load_recipes():
@@ -107,7 +110,7 @@ def photo(r, root, label, credit=False):
                if credit and c else "")
         lazy = "" if credit else ' loading="lazy"'
         return f'<figure class="photo has-img"><img src="{e(img_url(r, root))}" alt="{e(r["title"])}"{lazy}>{cap}</figure>'
-    return f'<div class="photo">{e(label)}</div>'
+    return f'<div class="photo noimg"><span>{e(r["title"])}</span></div>'
 
 
 def build_home(rs):
@@ -198,9 +201,12 @@ def build_recipe(r):
     (d / "index.html").write_text(page(f"{r['title']} · {site['name']}", desc, body, root, path, ld), encoding="utf-8")
 
 
+UNIT_LABEL = {"l": "λίτρο", "kg": "κιλό", "τεμ": "τεμάχιο"}
+
+
 def build_prices(rs):
     rows = "".join(
-        f'<tr><td>{e(x["name"])}</td><td class="n">{eur(x["price"])}</td><td>ανά {"λίτρο" if x["unit"] == "l" else "κιλό"}</td>'
+        f'<tr><td>{e(x["name"])}</td><td class="n">{eur(x["price"])}</td><td>ανά {UNIT_LABEL[x["unit"]]}</td>'
         f'<td class="n">{sum(1 for r in rs if any(i["item"] == k for i in r["ingredients"]))}</td></tr>'
         for k, x in sorted(PRICES.items(), key=lambda kv: kv[1]["name"]))
     body = f"""
