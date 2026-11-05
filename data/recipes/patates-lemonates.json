@@ -10,7 +10,7 @@
  "prep": 15,
  "cook": 75,
  "difficulty": "Εύκολη",
- "image": "https://images.unsplash.com/photo-1623238913973-21e45cced554?w=1200&q=80&auto=format&fit=crop",
+ "image": "",
  "intro": "Πατάτες ψημένες στο ταψί με λεμόνι, ρίγανη και σκόρδο, μαλακές μέσα και τραγανές στις άκρες. Συνοδευτικό για κάθε ψητό ή γεύμα από μόνες τους.",
  "ingredients": [
   {
@@ -80,10 +80,5 @@
   "Οι πατάτες σε μία στρώση ψήνονται τραγανές, όχι βραστές.",
   "Αν τελειώσει το νερό πριν μαλακώσουν, πρόσθεσε λίγο ακόμα.",
   "Ταιριάζουν με κάθε ψητό κρέας ή ψάρι."
- ],
- "image_credit": {
-  "name": "engin akyurt",
-  "source": "Unsplash",
-  "url": "https://unsplash.com/photos/a-black-pan-filled-with-potatoes-on-top-of-a-table-VflFcUICykI"
- }
+ ]
 }

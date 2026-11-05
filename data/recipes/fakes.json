@@ -10,7 +10,7 @@
  "prep": 10,
  "cook": 50,
  "difficulty": "Εύκολη",
- "image": "https://images.unsplash.com/photo-1605909388460-74ec8b204127?w=1200&q=80&auto=format&fit=crop",
+ "image": "",
  "intro": "Ψιλές φακές βρασμένες με λαχανικά και ντομάτα, με μια κουταλιά ξίδι στο τέλος. Από τα φθηνότερα και πιο θρεπτικά πιάτα της ελληνικής κουζίνας.",
  "ingredients": [
   {
@@ -94,10 +94,5 @@
   "Ένα φύλλο δάφνης στο βράσιμο δίνει άρωμα.",
   "Το ξίδι μπαίνει στο τέλος, ή ο καθένας βάζει στο πιάτο του.",
   "Πάει πολύ καλά με ελιές, τουρσί και φέτα."
- ],
- "image_credit": {
-  "name": "Jezebel Rose",
-  "source": "Unsplash",
-  "url": "https://unsplash.com/photos/soup-in-white-ceramic-bowl-KGw62KtHzxA"
- }
+ ]
 }

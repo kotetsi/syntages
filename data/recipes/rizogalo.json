@@ -9,7 +9,7 @@
  "prep": 5,
  "cook": 40,
  "difficulty": "Εύκολη",
- "image": "https://images.unsplash.com/photo-1515544645059-de313dd20a58?w=1200&q=80&auto=format&fit=crop",
+ "image": "",
  "intro": "Κρεμώδες ρυζόγαλο με φλούδα λεμονιού και κανέλα από πάνω. Το γλυκό του κουταλιού που φτιάχνεται με υλικά του ντουλαπιού.",
  "ingredients": [
   {
@@ -65,10 +65,5 @@
   "Όταν κρυώσει πήζει αρκετά, γι' αυτό σταμάτα όσο είναι ακόμα λίγο ρευστό.",
   "Ένα κομμάτι μεμβράνη πάνω στην επιφάνεια εμποδίζει την πέτσα.",
   "Διατηρείται 3 μέρες στο ψυγείο."
- ],
- "image_credit": {
-  "name": "Deryn Macey",
-  "source": "Unsplash",
-  "url": "https://unsplash.com/photos/dessert-cream-filled-white-bowl-IooxyWj2uso"
- }
+ ]
 }
