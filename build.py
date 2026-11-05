@@ -94,9 +94,18 @@ def page(title, desc, body, root, path, extra_head=""):
 """
 
 
-def photo(r, root, label):
+def img_url(r, root):
+    u = r.get("image", "")
+    return u if u.startswith("http") else f"{root}{u}"
+
+
+def photo(r, root, label, credit=False):
     if r.get("image"):
-        return f'<div class="photo has-img"><img src="{root}{e(r["image"])}" alt="{e(r["title"])}" loading="lazy"></div>'
+        c = r.get("image_credit")
+        cap = (f'<figcaption>Φωτογραφία: <a href="{e(c["url"])}" rel="nofollow noopener" target="_blank">{e(c["name"])}</a> / {e(c["source"])}</figcaption>'
+               if credit and c else "")
+        lazy = "" if credit else ' loading="lazy"'
+        return f'<figure class="photo has-img"><img src="{e(img_url(r, root))}" alt="{e(r["title"])}"{lazy}>{cap}</figure>'
     return f'<div class="photo">{e(label)}</div>'
 
 
@@ -127,8 +136,12 @@ def schema(r, path):
          "recipeIngredient": [f"{qty(i)} {i['text']}" for i in r["ingredients"]],
          "recipeInstructions": [{"@type": "HowToStep", "text": t} for t in r["steps"]],
          "author": {"@type": "Organization", "name": site["name"]}}
-    if r.get("image") and BASE:
-        s["image"] = [f"{BASE}/{r['image']}"]
+    if r.get("image"):
+        u = r["image"]
+        if u.startswith("http"):
+            s["image"] = [u]
+        elif BASE:
+            s["image"] = [f"{BASE}/{u}"]
     if BASE:
         s["url"] = f"{BASE}/{path}"
     return s
@@ -156,7 +169,7 @@ def build_recipe(r):
         </div>
         <a class="jump" href="#syntagi">Πήγαινε στη συνταγή ↓</a>
       </div>
-      {photo(r, root, 'Κεντρική φωτογραφία πιάτου')}
+      {photo(r, root, 'Κεντρική φωτογραφία πιάτου', credit=True)}
     </div>
     <div class="body" id="syntagi">
       <aside class="panel">

@@ -79,3 +79,7 @@ td.n,th.n{text-align:right}
 .photo.has-img{border:0;padding:0;background:none;overflow:hidden}
 footer.site{border-top:1px solid var(--line);margin-top:56px;padding-top:20px;color:var(--muted);font-size:.85rem}
 .card[hidden]{display:none!important}
+figure.photo{margin:0;position:relative}
+figure.photo img{aspect-ratio:4/3}
+figure.photo figcaption{position:absolute;right:8px;bottom:8px;font-size:.72rem;background:rgba(0,0,0,.55);color:#fff;padding:2px 8px;border-radius:4px}
+figure.photo figcaption a{color:#fff}

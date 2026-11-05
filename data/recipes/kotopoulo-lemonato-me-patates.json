@@ -9,7 +9,7 @@
  "prep": 15,
  "cook": 75,
  "difficulty": "Εύκολη",
- "image": "",
+ "image": "https://images.unsplash.com/photo-1615557960916-5f4791effe9d?w=1200&q=80&auto=format&fit=crop",
  "intro": "Μπούτια κοτόπουλου και πατάτες στο ίδιο ταψί, με λεμόνι, ρίγανη και μουστάρδα. Οι πατάτες ψήνονται μέσα στους χυμούς του κοτόπουλου.",
  "ingredients": [
   {
@@ -88,5 +88,10 @@
   "Με την πέτσα προς τα πάνω το κοτόπουλο γίνεται τραγανό.",
   "Τα μπούτια είναι φθηνότερα από το στήθος και μένουν πιο ζουμερά.",
   "Διατηρείται 3 μέρες στο ψυγείο."
- ]
+ ],
+ "image_credit": {
+  "name": "Cisco Lin",
+  "source": "Unsplash",
+  "url": "https://unsplash.com/photos/grilled-meat-on-black-round-plate-YMkX5NjURhk"
+ }
 }
