@@ -1,0 +1,332 @@
+{
+ "fasolia": {
+  "query": "φασόλια μέτρια",
+  "sku": "1223432",
+  "mode": "kg",
+  "factor": 1
+ },
+ "kremmydi": {
+  "query": "κρεμμύδια ξερά",
+  "sku": "4194973",
+  "mode": "kg",
+  "factor": 1
+ },
+ "karoto": {
+  "query": "καρότα",
+  "sku": "8428310",
+  "mode": "kg",
+  "factor": 1
+ },
+ "selino": {
+  "query": "σέλινο",
+  "sku": "8417149",
+  "mode": "kg",
+  "factor": 1
+ },
+ "pelte": {
+  "query": "πελτές",
+  "sku": "1227952",
+  "mode": "kg",
+  "factor": 1
+ },
+ "ladi": {
+  "query": "ελαιόλαδο εξαιρετικό παρθένο",
+  "sku": "1464071",
+  "mode": "kg",
+  "factor": 1
+ },
+ "alati": {
+  "query": "αλάτι",
+  "sku": "4172235",
+  "mode": "kg",
+  "factor": 1
+ },
+ "piperi": {
+  "query": "πιπέρι μαύρο τριμμένο",
+  "sku": "1223203",
+  "mode": "kg",
+  "factor": 1
+ },
+ "makaronia": {
+  "query": "μακαρόνια",
+  "sku": "1221723",
+  "mode": "kg",
+  "factor": 1
+ },
+ "kimas": {
+  "query": "κιμάς μοσχαρίσιος",
+  "sku": "1467636",
+  "mode": "kg",
+  "factor": 1
+ },
+ "skordo": {
+  "query": "σκόρδο",
+  "sku": "1157397",
+  "mode": "piece",
+  "factor": 20
+ },
+ "ntomata": {
+  "query": "ντομάτα τριμμένη",
+  "sku": "1227949",
+  "mode": "kg",
+  "factor": 1
+ },
+ "kanela": {
+  "query": "κανέλα",
+  "sku": "1223278",
+  "mode": "kg",
+  "factor": 1
+ },
+ "kefalotyri": {
+  "query": "κεφαλοτύρι",
+  "sku": "1272380",
+  "mode": "kg",
+  "factor": 1
+ },
+ "kotopoulo": {
+  "query": "μπούτι κοτόπουλο",
+  "sku": "1466688",
+  "mode": "kg",
+  "factor": 1
+ },
+ "patates": {
+  "query": "πατάτες",
+  "sku": "8430001",
+  "mode": "kg",
+  "factor": 1
+ },
+ "lemoni": {
+  "query": "λεμόνια",
+  "sku": "1222853",
+  "mode": "kg",
+  "factor": 1
+ },
+ "rigani": {
+  "query": "ρίγανη",
+  "sku": "1223224",
+  "mode": "kg",
+  "factor": 1
+ },
+ "moustarda": {
+  "query": "μουστάρδα",
+  "sku": "1303462",
+  "mode": "kg",
+  "factor": 1
+ },
+ "melitzanes": {
+  "query": "μελιτζάνες",
+  "sku": "8427874",
+  "mode": "kg",
+  "factor": 1
+ },
+ "gala": {
+  "query": "γάλα φρέσκο πλήρες",
+  "sku": "1537085",
+  "mode": "kg",
+  "factor": 1
+ },
+ "voutyro": {
+  "query": "βούτυρο",
+  "sku": "1467206",
+  "mode": "kg",
+  "factor": 1
+ },
+ "alevri": {
+  "query": "αλεύρι για όλες τις χρήσεις",
+  "sku": "1221789",
+  "mode": "kg",
+  "factor": 1
+ },
+ "avga": {
+  "query": "αυγά",
+  "sku": "1661329",
+  "mode": "piece",
+  "factor": 1
+ },
+ "moschokarydo": {
+  "query": "μοσχοκάρυδο",
+  "sku": "1223307",
+  "mode": "kg",
+  "factor": 1
+ },
+ "ntomates": {
+  "query": "ντομάτες",
+  "sku": "1569024",
+  "mode": "kg",
+  "factor": 1
+ },
+ "piperies": {
+  "query": "πιπεριές πράσινες",
+  "sku": "8429391",
+  "mode": "kg",
+  "factor": 1
+ },
+ "ryzi_glase": {
+  "query": "ρύζι γλασέ",
+  "sku": "1223405",
+  "mode": "kg",
+  "factor": 1
+ },
+ "ryzi_karolina": {
+  "query": "ρύζι καρολίνα",
+  "sku": "1223408",
+  "mode": "kg",
+  "factor": 1
+ },
+ "dyosmos": {
+  "query": "δυόσμος",
+  "sku": "1223326",
+  "mode": "piece",
+  "factor": 1
+ },
+ "maintanos": {
+  "query": "μαϊντανός",
+  "sku": "8427700",
+  "mode": "piece",
+  "factor": 1
+ },
+ "anithos": {
+  "query": "άνηθος",
+  "sku": "8428401",
+  "mode": "piece",
+  "factor": 1
+ },
+ "fakes": {
+  "query": "φακές ψιλές",
+  "sku": "1223409",
+  "mode": "kg",
+  "factor": 1
+ },
+ "revithia": {
+  "query": "ρεβίθια",
+  "sku": "1223390",
+  "mode": "kg",
+  "factor": 1
+ },
+ "kolokythakia": {
+  "query": "κολοκυθάκια",
+  "sku": "8429383",
+  "mode": "kg",
+  "factor": 1
+ },
+ "fasolakia": {
+  "query": "φασολάκια",
+  "sku": "8428617",
+  "mode": "kg",
+  "factor": 1
+ },
+ "aggouri": {
+  "query": "αγγούρι",
+  "sku": "8429243",
+  "mode": "kg",
+  "factor": 0.125
+ },
+ "feta": {
+  "query": "φέτα",
+  "sku": "1584112",
+  "mode": "kg",
+  "factor": 1
+ },
+ "elies": {
+  "query": "ελιές καλαμών",
+  "sku": "1478686",
+  "mode": "kg",
+  "factor": 1
+ },
+ "giaourti": {
+  "query": "γιαούρτι στραγγιστό",
+  "sku": "1428687",
+  "mode": "kg",
+  "factor": 1
+ },
+ "xydi": {
+  "query": "ξίδι",
+  "sku": "5461025",
+  "mode": "kg",
+  "factor": 1
+ },
+ "spanaki": {
+  "query": "σπανάκι",
+  "sku": "8428690",
+  "mode": "kg",
+  "factor": 1
+ },
+ "fyllo": {
+  "query": "φύλλο κρούστας",
+  "sku": "1657297",
+  "mode": "piece",
+  "factor": 1
+ },
+ "kremmydakia": {
+  "query": "κρεμμυδάκια φρέσκα",
+  "sku": "8417511",
+  "mode": "kg",
+  "factor": 0.15
+ },
+ "moschari": {
+  "query": "μοσχάρι ποντίκι",
+  "sku": "1252952",
+  "mode": "kg",
+  "factor": 1
+ },
+ "kritharaki": {
+  "query": "κριθαράκι",
+  "sku": "1221819",
+  "mode": "kg",
+  "factor": 1
+ },
+ "kotopoulo_olo": {
+  "query": "κοτόπουλο ολόκληρο",
+  "sku": "1448543",
+  "mode": "kg",
+  "factor": 1
+ },
+ "gigantes": {
+  "query": "γίγαντες",
+  "sku": "1223425",
+  "mode": "kg",
+  "factor": 1
+ },
+ "psomi": {
+  "query": "ψωμί",
+  "sku": "1221377",
+  "mode": "kg",
+  "factor": 1
+ },
+ "kymino": {
+  "query": "κύμινο",
+  "sku": "1223297",
+  "mode": "kg",
+  "factor": 1
+ },
+ "krasi": {
+  "query": "κρασί κόκκινο",
+  "sku": "1226603",
+  "mode": "kg",
+  "factor": 1
+ },
+ "zachari": {
+  "query": "ζάχαρη λευκή",
+  "sku": "1217252",
+  "mode": "kg",
+  "factor": 1
+ },
+ "bachari": {
+  "query": "μπαχάρι",
+  "sku": "1223308",
+  "mode": "kg",
+  "factor": 1
+ },
+ "xylopites": {
+  "query": "χυλοπίτες",
+  "sku": "5642970",
+  "mode": "kg",
+  "factor": 1
+ },
+ "amylo": {
+  "query": "κορν φλάουρ",
+  "sku": "4088266",
+  "mode": "kg",
+  "factor": 1
+ }
+}

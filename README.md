@@ -9,3 +9,14 @@
 - `python3 build.py` — χτίζει το site στο `_site/`
 
 Σε κάθε push στο `main` το GitHub Actions χτίζει και δημοσιεύει το site στο GitHub Pages.
+
+## Καθημερινή ενημέρωση τιμών
+
+1. Σε μια σελίδα του sklavenitis.gr εκτέλεσε το `tools/fetch_prices.js` και μετά
+   `await fetchPrices(<περιεχόμενο του tools/price_map.json>)`. Αποθήκευσε το JSON που επιστρέφει.
+2. `python3 tools/apply_prices.py <αρχείο>.json "<ημερομηνία>"` — ενημερώνει το `data/prices.json`
+   (κρατάει την παλιά τιμή αν το προϊόν λείπει ή η αλλαγή ξεπερνά το 60%).
+3. `python3 build.py`, commit και push.
+
+Το `tools/price_map.json` ορίζει για κάθε υλικό την αναζήτηση, το SKU του προϊόντος αναφοράς και
+πώς μετατρέπεται η τιμή (`kg`: τιμή ανά κιλό/λίτρο, `piece`: τιμή τεμαχίου, `factor`: πολλαπλασιαστής).
