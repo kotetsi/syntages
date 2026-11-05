@@ -1,221 +1,264 @@
 {
- "_updated": "Νοέμβριος 2026",
- "_note": "Ενδεικτικές τιμές — αντικατάσταση με πραγματικές τιμές σουπερμάρκετ πριν το live",
+ "_updated": "5 Νοεμβρίου 2026",
+ "_note": "Τιμές από το e-shop του Σκλαβενίτη (sklavenitis.gr) στις 5/11/2026. Για κάθε υλικό παίρνουμε ένα συνηθισμένο προϊόν της καθημερινής αγοράς, όχι το ακριβότερο ή προσφορά.",
  "items": {
   "fasolia": {
    "name": "Φασόλια μέτρια",
-   "price": 3.5,
-   "unit": "kg"
+   "price": 3.36,
+   "unit": "kg",
+   "product": "ΣΚΛΑΒΕΝΙΤΗΣ Φασόλια μέτρια Ελληνικά 500g"
   },
   "kremmydi": {
    "name": "Κρεμμύδια ξερά",
-   "price": 1.1,
-   "unit": "kg"
+   "price": 0.7,
+   "unit": "kg",
+   "product": "Κρεμμύδια ξερά εγχώρια"
   },
   "karoto": {
    "name": "Καρότα",
-   "price": 1.2,
-   "unit": "kg"
+   "price": 0.9,
+   "unit": "kg",
+   "product": "Καρότα εγχώρια"
   },
   "selino": {
    "name": "Σέλινο",
-   "price": 3.0,
-   "unit": "kg"
+   "price": 2.2,
+   "unit": "kg",
+   "product": "Σέλινο εγχώριο"
   },
   "pelte": {
    "name": "Πελτές ντομάτας",
-   "price": 6.0,
-   "unit": "kg"
+   "price": 2.44,
+   "unit": "kg",
+   "product": "ΜΑΡΑΤΑ Ντοματοπολτός 410g"
   },
   "ladi": {
    "name": "Ελαιόλαδο",
-   "price": 9.0,
-   "unit": "l"
+   "price": 7.2,
+   "unit": "l",
+   "product": "ΜΑΡΑΤΑ Εξαιρετικό παρθένο ελαιόλαδο 1lt"
   },
   "alati": {
    "name": "Αλάτι",
    "price": 0.8,
-   "unit": "kg"
+   "unit": "kg",
+   "product": "ΚΟΡΩΝΙΣ Αλάτι ψιλό 500g"
   },
   "piperi": {
    "name": "Πιπέρι",
-   "price": 30.0,
-   "unit": "kg"
+   "price": 12.0,
+   "unit": "kg",
+   "product": "ΣΚΛΑΒΕΝΙΤΗΣ Πιπέρι μαύρο τριμμένο 50g"
   },
   "makaronia": {
    "name": "Μακαρόνια Νο 2",
-   "price": 1.8,
-   "unit": "kg"
+   "price": 1.16,
+   "unit": "kg",
+   "product": "ΜΑΡΑΤΑ Σπαγγέτι 500g"
   },
   "kimas": {
    "name": "Κιμάς μοσχαρίσιος",
-   "price": 10.5,
-   "unit": "kg"
+   "price": 13.2,
+   "unit": "kg",
+   "product": "Κιμάς λάπα νεαρού μοσχαριού ΣΚΛΑΒΕΝΙΤΗΣ 500g"
   },
   "skordo": {
    "name": "Σκόρδο",
-   "price": 6.0,
-   "unit": "kg"
+   "price": 8.0,
+   "unit": "kg",
+   "product": "Σκόρδα εγχώρια 3τεμ (0,40 € το κεφάλι)"
   },
   "ntomata": {
    "name": "Ντομάτα τριμμένη",
-   "price": 2.5,
-   "unit": "kg"
+   "price": 1.46,
+   "unit": "kg",
+   "product": "ΜΑΡΑΤΑ Ντομάτες τριμμένες 500g"
   },
   "kanela": {
    "name": "Κανέλα ξύλο",
-   "price": 25.0,
-   "unit": "kg"
+   "price": 12.8,
+   "unit": "kg",
+   "product": "ΣΚΛΑΒΕΝΙΤΗΣ Κανέλα τριμμένη 50g"
   },
   "kefalotyri": {
    "name": "Κεφαλοτύρι",
-   "price": 15.0,
-   "unit": "kg"
+   "price": 14.44,
+   "unit": "kg",
+   "product": "Κεφαλοτύρι τριμμένο 180g"
   },
   "kotopoulo": {
    "name": "Μπούτια κοτόπουλου",
-   "price": 4.5,
-   "unit": "kg"
+   "price": 5.45,
+   "unit": "kg",
+   "product": "Κοτόπουλο μπούτι ΑΓΡΟΖΩΗ Ελληνικό"
   },
   "patates": {
    "name": "Πατάτες",
-   "price": 1.0,
-   "unit": "kg"
+   "price": 0.83,
+   "unit": "kg",
+   "product": "Πατάτες εγχώριες"
   },
   "lemoni": {
    "name": "Λεμόνια",
-   "price": 1.8,
-   "unit": "kg"
+   "price": 1.3,
+   "unit": "kg",
+   "product": "Λεμόνια"
   },
   "rigani": {
    "name": "Ρίγανη",
-   "price": 30.0,
-   "unit": "kg"
+   "price": 16.8,
+   "unit": "kg",
+   "product": "ΣΚΛΑΒΕΝΙΤΗΣ Ρίγανη τριμμένη 25g"
   },
   "moustarda": {
    "name": "Μουστάρδα",
-   "price": 6.0,
-   "unit": "kg"
+   "price": 2.2,
+   "unit": "kg",
+   "product": "ΜΑΡΑΤΑ Μουστάρδα απαλή 500g"
   },
   "melitzanes": {
    "name": "Μελιτζάνες",
-   "price": 2.2,
-   "unit": "kg"
+   "price": 2.05,
+   "unit": "kg",
+   "product": "Μελιτζάνες φλάσκες εγχώριες"
   },
   "gala": {
    "name": "Γάλα φρέσκο",
-   "price": 1.4,
-   "unit": "l"
+   "price": 1.05,
+   "unit": "l",
+   "product": "ΜΑΡΑΤΑ Φρέσκο γάλα πλήρες 1lt"
   },
   "voutyro": {
    "name": "Βούτυρο",
-   "price": 10.0,
-   "unit": "kg"
+   "price": 8.16,
+   "unit": "kg",
+   "product": "ROYAL Βούτυρο αγελάδος 250g"
   },
   "alevri": {
    "name": "Αλεύρι για όλες τις χρήσεις",
-   "price": 1.0,
-   "unit": "kg"
+   "price": 0.68,
+   "unit": "kg",
+   "product": "ΜΑΡΑΤΑ Αλεύρι για όλες τις χρήσεις 1kg"
   },
   "avga": {
    "name": "Αυγά",
-   "price": 0.35,
-   "unit": "τεμ"
+   "price": 0.27,
+   "unit": "τεμ",
+   "product": "Αυγά ΜΑΡΑΤΑ μεσαία 10τεμ"
   },
   "moschokarydo": {
    "name": "Μοσχοκάρυδο",
-   "price": 40.0,
-   "unit": "kg"
+   "price": 46.0,
+   "unit": "kg",
+   "product": "ΣΚΛΑΒΕΝΙΤΗΣ Μοσχοκάρυδο τριμμένο 25g"
   },
   "ntomates": {
    "name": "Ντομάτες φρέσκες",
-   "price": 2.5,
-   "unit": "kg"
+   "price": 2.53,
+   "unit": "kg",
+   "product": "Ντομάτες εγχώριες"
   },
   "piperies": {
    "name": "Πιπεριές πράσινες",
-   "price": 3.2,
-   "unit": "kg"
+   "price": 2.85,
+   "unit": "kg",
+   "product": "Πιπεριές πράσινες εγχώριες"
   },
   "ryzi_glase": {
    "name": "Ρύζι γλασέ",
-   "price": 2.6,
-   "unit": "kg"
+   "price": 1.56,
+   "unit": "kg",
+   "product": "ΣΚΛΑΒΕΝΙΤΗΣ Ρύζι γλασέ Ελληνικό 500g"
   },
   "ryzi_karolina": {
    "name": "Ρύζι καρολίνα",
-   "price": 2.8,
-   "unit": "kg"
+   "price": 2.1,
+   "unit": "kg",
+   "product": "ΣΚΛΑΒΕΝΙΤΗΣ Ρύζι καρολίνα Ελληνικό 500g"
   },
   "dyosmos": {
    "name": "Δυόσμος (ματσάκι)",
-   "price": 0.9,
-   "unit": "τεμ"
+   "price": 0.85,
+   "unit": "τεμ",
+   "product": "Δυόσμος εγχώριος 50g"
   },
   "maintanos": {
    "name": "Μαϊντανός (ματσάκι)",
-   "price": 0.8,
-   "unit": "τεμ"
+   "price": 0.78,
+   "unit": "τεμ",
+   "product": "Μαϊντανός εγχώριος 100g"
   },
   "anithos": {
    "name": "Άνηθος (ματσάκι)",
-   "price": 0.8,
-   "unit": "τεμ"
+   "price": 0.78,
+   "unit": "τεμ",
+   "product": "Άνηθος εγχώριος 100g"
   },
   "fakes": {
    "name": "Φακές ψιλές",
-   "price": 2.8,
-   "unit": "kg"
+   "price": 2.4,
+   "unit": "kg",
+   "product": "ΣΚΛΑΒΕΝΙΤΗΣ Φακές ψιλές Ελληνικές 500g"
   },
   "revithia": {
    "name": "Ρεβίθια",
-   "price": 3.0,
-   "unit": "kg"
+   "price": 2.8,
+   "unit": "kg",
+   "product": "ΣΚΛΑΒΕΝΙΤΗΣ Ρεβίθια μέτρια Ελληνικά 500g"
   },
   "kolokythakia": {
    "name": "Κολοκυθάκια",
-   "price": 2.5,
-   "unit": "kg"
+   "price": 1.6,
+   "unit": "kg",
+   "product": "Κολοκύθια εγχώρια"
   },
   "fasolakia": {
    "name": "Φασολάκια πλατιά",
-   "price": 4.5,
-   "unit": "kg"
+   "price": 3.5,
+   "unit": "kg",
+   "product": "Φασολάκια φρέσκα"
   },
   "aggouri": {
    "name": "Αγγούρι",
-   "price": 0.6,
-   "unit": "τεμ"
+   "price": 0.17,
+   "unit": "τεμ",
+   "product": "Αγγουράκια εγχώρια (1,38 €/κιλό, περ. 125 g το ένα)"
   },
   "feta": {
    "name": "Φέτα",
-   "price": 11.0,
-   "unit": "kg"
+   "price": 12.63,
+   "unit": "kg",
+   "product": "Φέτα Ηπείρου ΚΑΡΑΛΗΣ ΠΟΠ 400g"
   },
   "elies": {
    "name": "Ελιές Καλαμών",
-   "price": 9.0,
-   "unit": "kg"
+   "price": 7.58,
+   "unit": "kg",
+   "product": "Ελιές Καλαμών XENIA 330g"
   },
   "giaourti": {
    "name": "Γιαούρτι στραγγιστό",
-   "price": 5.5,
-   "unit": "kg"
+   "price": 2.6,
+   "unit": "kg",
+   "product": "ΜΑΡΑΤΑ Γιαούρτι στραγγιστό 2% 1kg"
   },
   "xydi": {
    "name": "Ξίδι",
-   "price": 2.0,
-   "unit": "l"
+   "price": 0.82,
+   "unit": "l",
+   "product": "ΦΙΝΟ Ξίδι 390ml"
   },
   "spanaki": {
    "name": "Σπανάκι",
-   "price": 3.5,
-   "unit": "kg"
+   "price": 2.55,
+   "unit": "kg",
+   "product": "Σπανάκι φρέσκο"
   },
   "fyllo": {
    "name": "Φύλλο κρούστας (πακέτο 450 g)",
-   "price": 2.8,
-   "unit": "τεμ"
+   "price": 1.85,
+   "unit": "τεμ",
+   "product": "Φύλλο κρούστας ΜΑΡΑΤΑ 450g"
   },
   "kremmydakia": {
    "name": "Φρέσκα κρεμμυδάκια (ματσάκι)",
@@ -224,58 +267,69 @@
   },
   "moschari": {
    "name": "Μοσχάρι χωρίς κόκαλο",
-   "price": 14.0,
-   "unit": "kg"
+   "price": 17.9,
+   "unit": "kg",
+   "product": "Ποντίκι νεαρού μοσχαριού ΣΚΛΑΒΕΝΙΤΗΣ"
   },
   "kritharaki": {
    "name": "Κριθαράκι",
-   "price": 2.2,
-   "unit": "kg"
+   "price": 1.24,
+   "unit": "kg",
+   "product": "ΜΑΡΑΤΑ Κριθαράκι μέτριο 500g"
   },
   "kotopoulo_olo": {
    "name": "Κοτόπουλο ολόκληρο",
-   "price": 4.2,
-   "unit": "kg"
+   "price": 2.9,
+   "unit": "kg",
+   "product": "Κοτόπουλο ΑΓΡΟΖΩΗ Ελληνικό ολόκληρο"
   },
   "gigantes": {
    "name": "Γίγαντες",
-   "price": 7.0,
-   "unit": "kg"
+   "price": 5.1,
+   "unit": "kg",
+   "product": "ΣΚΛΑΒΕΝΙΤΗΣ Φασόλια γίγαντες εισαγωγής 500g"
   },
   "psomi": {
    "name": "Ψωμί μπαγιάτικο",
-   "price": 2.2,
-   "unit": "kg"
+   "price": 1.91,
+   "unit": "kg",
+   "product": "ΜΑΡΑΤΑ Ψωμί για τοστ 680g"
   },
   "kymino": {
    "name": "Κύμινο",
-   "price": 30.0,
-   "unit": "kg"
+   "price": 18.8,
+   "unit": "kg",
+   "product": "ΣΚΛΑΒΕΝΙΤΗΣ Κύμινο τριμμένο 50g"
   },
   "krasi": {
    "name": "Κρασί κόκκινο",
-   "price": 5.0,
-   "unit": "l"
+   "price": 2.65,
+   "unit": "l",
+   "product": "ΣΤΡΟΦΥΛΙ Ερυθρός οίνος 1,5lt"
   },
   "zachari": {
    "name": "Ζάχαρη",
-   "price": 1.2,
-   "unit": "kg"
+   "price": 0.68,
+   "unit": "kg",
+   "product": "CRISTAL Ζάχαρη λευκή 1kg"
   },
   "bachari": {
    "name": "Μπαχάρι",
-   "price": 30.0,
-   "unit": "kg"
+   "price": 25.6,
+   "unit": "kg",
+   "product": "ΣΚΛΑΒΕΝΙΤΗΣ Μπαχάρι 25g"
   },
   "xylopites": {
    "name": "Χυλοπίτες",
-   "price": 2.6,
-   "unit": "kg"
+   "price": 2.76,
+   "unit": "kg",
+   "product": "STELLA Χυλοπίτες χωριάτικες 500g"
   },
   "amylo": {
    "name": "Άμυλο αραβοσίτου",
-   "price": 4.0,
-   "unit": "kg"
+   "price": 5.65,
+   "unit": "kg",
+   "product": "ΓΙΩΤΗΣ Κορν φλάουρ 200g"
   }
  }
 }

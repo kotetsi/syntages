@@ -206,7 +206,7 @@ UNIT_LABEL = {"l": "λίτρο", "kg": "κιλό", "τεμ": "τεμάχιο"}
 
 def build_prices(rs):
     rows = "".join(
-        f'<tr><td>{e(x["name"])}</td><td class="n">{eur(x["price"])}</td><td>ανά {UNIT_LABEL[x["unit"]]}</td>'
+        f'<tr><td>{e(x["name"])}</td><td class="n">{eur(x["price"])}</td><td>ανά {UNIT_LABEL[x["unit"]]}</td><td class="prod">{e(x.get("product", "ενδεικτική τιμή"))}</td>'
         f'<td class="n">{sum(1 for r in rs if any(i["item"] == k for i in r["ingredients"]))}</td></tr>'
         for k, x in sorted(PRICES.items(), key=lambda kv: kv[1]["name"]))
     body = f"""
@@ -214,7 +214,7 @@ def build_prices(rs):
     <h1>Τιμές υλικών</h1>
     <p class="lead">Από αυτόν τον πίνακα υπολογίζεται το κόστος κάθε συνταγής. Όταν αλλάζει μια τιμή, ενημερώνονται όλες οι συνταγές που χρησιμοποιούν το υλικό.</p>
     {f'<div class="banner">{e(prices_doc["_note"])}</div>' if prices_doc.get("_note") else ''}
-    <div class="tablewrap"><table><thead><tr><th>Υλικό</th><th class="n">Τιμή</th><th>Μονάδα</th><th class="n">Συνταγές</th></tr></thead>
+    <div class="tablewrap"><table><thead><tr><th>Υλικό</th><th class="n">Τιμή</th><th>Μονάδα</th><th>Προϊόν αναφοράς</th><th class="n">Συνταγές</th></tr></thead>
     <tbody>{rows}</tbody></table></div>
     <p class="note">Ενημέρωση: {e(UPDATED)}</p>"""
     d = OUT / "times"
