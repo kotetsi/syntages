@@ -1,0 +1,101 @@
+{
+ "_updated": "Νοέμβριος 2026",
+ "_note": "Ενδεικτικές τιμές — αντικατάσταση με πραγματικές τιμές σουπερμάρκετ πριν το live",
+ "items": {
+  "fasolia": {
+   "name": "Φασόλια μέτρια",
+   "price": 3.5,
+   "unit": "kg"
+  },
+  "kremmydi": {
+   "name": "Κρεμμύδια ξερά",
+   "price": 1.1,
+   "unit": "kg"
+  },
+  "karoto": {
+   "name": "Καρότα",
+   "price": 1.2,
+   "unit": "kg"
+  },
+  "selino": {
+   "name": "Σέλινο",
+   "price": 3.0,
+   "unit": "kg"
+  },
+  "pelte": {
+   "name": "Πελτές ντομάτας",
+   "price": 6.0,
+   "unit": "kg"
+  },
+  "ladi": {
+   "name": "Ελαιόλαδο",
+   "price": 9.0,
+   "unit": "l"
+  },
+  "alati": {
+   "name": "Αλάτι",
+   "price": 0.8,
+   "unit": "kg"
+  },
+  "piperi": {
+   "name": "Πιπέρι",
+   "price": 30.0,
+   "unit": "kg"
+  },
+  "makaronia": {
+   "name": "Μακαρόνια Νο 2",
+   "price": 1.8,
+   "unit": "kg"
+  },
+  "kimas": {
+   "name": "Κιμάς μοσχαρίσιος",
+   "price": 10.5,
+   "unit": "kg"
+  },
+  "skordo": {
+   "name": "Σκόρδο",
+   "price": 6.0,
+   "unit": "kg"
+  },
+  "ntomata": {
+   "name": "Ντομάτα τριμμένη",
+   "price": 2.5,
+   "unit": "kg"
+  },
+  "kanela": {
+   "name": "Κανέλα ξύλο",
+   "price": 25.0,
+   "unit": "kg"
+  },
+  "kefalotyri": {
+   "name": "Κεφαλοτύρι",
+   "price": 15.0,
+   "unit": "kg"
+  },
+  "kotopoulo": {
+   "name": "Μπούτια κοτόπουλου",
+   "price": 4.5,
+   "unit": "kg"
+  },
+  "patates": {
+   "name": "Πατάτες",
+   "price": 1.0,
+   "unit": "kg"
+  },
+  "lemoni": {
+   "name": "Λεμόνια",
+   "price": 1.8,
+   "unit": "kg"
+  },
+  "rigani": {
+   "name": "Ρίγανη",
+   "price": 30.0,
+   "unit": "kg"
+  },
+  "moustarda": {
+   "name": "Μουστάρδα",
+   "price": 6.0,
+   "unit": "kg"
+  }
+ }
+}
