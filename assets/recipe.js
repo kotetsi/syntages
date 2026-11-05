@@ -33,17 +33,28 @@
   draw();
 })();
 
-// Φίλτρα κατηγοριών στην αρχική
+// Φίλτρα κατηγοριών και αναζήτηση στην αρχική
 (function () {
   var chips = document.querySelectorAll(".chip[data-c]");
   if (!chips.length) return;
+  var q = document.getElementById("q"), count = document.getElementById("count");
+  var cat = "Όλες";
+  var norm = function (s) { return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase(); };
+  function apply() {
+    var term = q ? norm(q.value.trim()) : "", n = 0;
+    document.querySelectorAll(".card[data-cats]").forEach(function (card) {
+      var ok = (cat === "Όλες" || card.dataset.cats.split("|").indexOf(cat) > -1) &&
+               (!term || norm(card.dataset.search).indexOf(term) > -1);
+      card.hidden = !ok; if (ok) n++;
+    });
+    if (count) count.textContent = n === 1 ? "1 συνταγή" : n + " συνταγές";
+  }
   chips.forEach(function (b) {
     b.addEventListener("click", function () {
-      var c = b.dataset.c;
+      cat = b.dataset.c;
       chips.forEach(function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
-      document.querySelectorAll(".card[data-cats]").forEach(function (card) {
-        card.hidden = !(c === "Όλες" || card.dataset.cats.split("|").indexOf(c) > -1);
-      });
+      apply();
     });
   });
+  if (q) q.addEventListener("input", apply);
 })();

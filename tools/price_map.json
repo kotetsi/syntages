@@ -520,5 +520,71 @@
   "sku": "1221511",
   "mode": "piece",
   "factor": 0.2
+ },
+ "ampelofylla": {
+  "query": "αμπελόφυλλα",
+  "sku": "1389126",
+  "mode": "kg",
+  "factor": 1
+ },
+ "arni": {
+  "query": "αρνί μπούτι",
+  "sku": "1636131",
+  "mode": "kg",
+  "factor": 1
+ },
+ "kalamari": {
+  "query": "καλαμάρι",
+  "sku": "1171292",
+  "mode": "kg",
+  "factor": 1
+ },
+ "loukaniko": {
+  "query": "λουκάνικο χωριάτικο",
+  "sku": "1221772",
+  "mode": "kg",
+  "factor": 1
+ },
+ "kefalograviera": {
+  "query": "κεφαλογραβιέρα",
+  "sku": "1221901",
+  "mode": "kg",
+  "factor": 1
+ },
+ "kafteri": {
+  "query": "πιπεριές καυτερές",
+  "sku": "7677115",
+  "mode": "kg",
+  "factor": 1
+ },
+ "piperies_kokkines": {
+  "query": "πιπεριές κόκκινες",
+  "sku": "7553886",
+  "mode": "kg",
+  "factor": 1
+ },
+ "fryganid": {
+  "query": "φρυγανιά τριμμένη",
+  "sku": "1044555",
+  "mode": "kg",
+  "factor": 1
+ },
+ "stithos": {
+  "query": "κοτόπουλο στήθος",
+  "sku": "5850029",
+  "mode": "kg",
+  "factor": 1
+ },
+ "boukovo": {
+  "query": "μπούκοβο",
+  "sku": "1223310",
+  "mode": "kg",
+  "factor": 1
+ },
+ "krasi_lefko": {
+  "query": "λευκό κρασί",
+  "sku": "1223475",
+  "mode": "kg",
+  "factor": 1
  }
 }

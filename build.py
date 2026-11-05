@@ -117,7 +117,7 @@ def build_home(rs):
     cats = ["Όλες"] + sorted({c for r in rs for c in r["categories"]}, key=lambda c: c)
     chips = "".join(f'<button class="chip" aria-pressed="{"true" if c == "Όλες" else "false"}" data-c="{e(c)}">{e(c)}</button>' for c in cats)
     cards = "".join(f"""
-      <a class="card" href="syntages/{r['slug']}/" data-cats="{e('|'.join(r['categories']))}">
+      <a class="card" href="syntages/{r['slug']}/" data-cats="{e('|'.join(r['categories']))}" data-search="{e((r['title'] + ' ' + ' '.join(i['text'] for i in r['ingredients'])).lower())}">
         {photo(r, '', 'Φωτογραφία: ' + r['title'])}
         <h3>{e(r['title'])}</h3>
         <div class="meta"><span class="cost-pill">{eur(r['per'])} <small>/ {r.get('serving_label', ['', 'μερίδα'])[1]}</small></span><span>{r['prep'] + r['cook']}′</span><span>{e(r['difficulty'])}</span></div>
@@ -126,7 +126,9 @@ def build_home(rs):
     <p class="eyebrow">Ελληνικές συνταγές με κόστος</p>
     <h1>Μαγείρεμα σπιτικό, με τον λογαριασμό μπροστά σου</h1>
     <p class="lead">Κάθε συνταγή δείχνει πόσο κοστίζει η μερίδα με τις τρέχουσες τιμές των υλικών στο σουπερμάρκετ.</p>
+    <div class="search"><label for="q" class="eyebrow">Αναζήτηση</label><input id="q" type="search" placeholder="π.χ. φακές, κοτόπουλο, σπανάκι" autocomplete="off"></div>
     <div class="filters" role="group" aria-label="Κατηγορίες">{chips}</div>
+    <p class="note" id="count">{len(rs)} συνταγές</p>
     <div class="grid">{cards}</div>"""
     (OUT / "index.html").write_text(page(f"{site['name']} · {site['tagline']}", site["tagline"], body, "", ""), encoding="utf-8")
 
@@ -229,7 +231,7 @@ def build_seo(rs):
         sm = "".join(f"<url><loc>{BASE}/{u}</loc></url>" for u in urls)
         (OUT / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>', encoding="utf-8")
         (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
-        host = BASE.split("://", 1)[-1]
+        host = BASE.split("://", 1)[-1].split("/")[0]
         if not host.endswith("github.io"):
             (OUT / "CNAME").write_text(host + "\n", encoding="utf-8")
     else:

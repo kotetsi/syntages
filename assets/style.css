@@ -86,3 +86,6 @@ figure.photo figcaption{position:absolute;right:8px;bottom:8px;font-size:.72rem;
 figure.photo figcaption a{color:#fff}
 .photo.noimg{border-style:solid;background:var(--olive-soft);color:var(--olive);font-family:var(--display);font-weight:700;font-size:1.4rem;text-wrap:balance}
 td.prod{color:var(--muted);font-size:.85rem}
+.search{display:grid;gap:6px;margin-top:22px;max-width:420px}
+.search input{font:inherit;padding:10px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink)}
+.search input:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
