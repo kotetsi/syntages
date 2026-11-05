@@ -328,5 +328,107 @@
   "sku": "4088266",
   "mode": "kg",
   "factor": 1
+ },
+ "bamies": {
+  "query": "μπάμιες",
+  "sku": "1583847",
+  "mode": "kg",
+  "factor": 1
+ },
+ "arakas": {
+  "query": "αρακάς",
+  "sku": "1427102",
+  "mode": "kg",
+  "factor": 1
+ },
+ "lachano": {
+  "query": "λάχανο",
+  "sku": "8430530",
+  "mode": "kg",
+  "factor": 1
+ },
+ "choirino": {
+  "query": "χοιρινό σπάλα",
+  "sku": "1252966",
+  "mode": "kg",
+  "factor": 1
+ },
+ "kimas_choirinos": {
+  "query": "χοιρινός κιμάς",
+  "sku": "1467641",
+  "mode": "kg",
+  "factor": 1
+ },
+ "bakaliaros": {
+  "query": "μπακαλιάρος παστός",
+  "sku": "1233502",
+  "mode": "kg",
+  "factor": 1
+ },
+ "garides": {
+  "query": "γαρίδες",
+  "sku": "4641973",
+  "mode": "kg",
+  "factor": 1
+ },
+ "taramas": {
+  "query": "ταραμάς",
+  "sku": "1224177",
+  "mode": "kg",
+  "factor": 1
+ },
+ "fava": {
+  "query": "φάβα",
+  "sku": "1223398",
+  "mode": "kg",
+  "factor": 1
+ },
+ "simigdali": {
+  "query": "σιμιγδάλι",
+  "sku": "1298597",
+  "mode": "kg",
+  "factor": 1
+ },
+ "portokalia": {
+  "query": "πορτοκάλια",
+  "sku": "1222860",
+  "mode": "kg",
+  "factor": 1
+ },
+ "mpaking": {
+  "query": "μπέικιν πάουντερ",
+  "sku": "1576375",
+  "mode": "kg",
+  "factor": 1
+ },
+ "trachanas": {
+  "query": "τραχανάς",
+  "sku": "4173357",
+  "mode": "kg",
+  "factor": 1
+ },
+ "kokkaria": {
+  "query": "κρεμμυδάκια κατεψυγμένα",
+  "sku": "4876579",
+  "mode": "kg",
+  "factor": 1
+ },
+ "pites": {
+  "query": "πίτες για σουβλάκι",
+  "sku": "1175738",
+  "mode": "piece",
+  "factor": 0.1
+ },
+ "kapari": {
+  "query": "κάππαρη",
+  "sku": "1227618",
+  "mode": "kg",
+  "factor": 1
+ },
+ "karydia": {
+  "query": "καρύδια ψίχα",
+  "sku": "1223190",
+  "mode": "kg",
+  "factor": 1
  }
 }
