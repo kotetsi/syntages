@@ -9,7 +9,7 @@
  "prep": 25,
  "cook": 45,
  "difficulty": "Μέτρια",
- "image": "https://images.unsplash.com/photo-1673436977889-334fcab20436?w=1200&q=80&auto=format&fit=crop",
+ "image": "",
  "intro": "Μπαλίτσες από κιμά και ρύζι βρασμένες σε ζωμό και δεμένες με βελούδινο αυγολέμονο. Ζεστό φαγητό-σούπα για τον χειμώνα.",
  "ingredients": [
   {
@@ -89,10 +89,5 @@
   "Βρεγμένα χέρια κάνουν το πλάσιμο εύκολο.",
   "Λίγο αλεύρι στις μπαλίτσες κάνει τον ζωμό πιο πηχτό.",
   "Ζεσταίνονται σε χαμηλή φωτιά, χωρίς βράσιμο."
- ],
- "image_credit": {
-  "name": "Elena Leya",
-  "source": "Unsplash",
-  "url": "https://unsplash.com/photos/a-bowl-of-soup-with-meatballs-and-vegetables-y-wM_h_27Fg"
- }
+ ]
 }
