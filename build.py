@@ -5,7 +5,7 @@
 Νέα τιμή υλικού: άλλαξε το data/prices.json — το κόστος όλων των συνταγών ξαναϋπολογίζεται.
 Εκτέλεση: python3 build.py
 """
-import json, shutil, html, sys
+import json, shutil, html, sys, hashlib
 from pathlib import Path
 
 ROOT = Path(__file__).parent
@@ -20,6 +20,7 @@ FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
          '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,700'
          '&family=Commissioner:wght@400;500;600&display=swap">')
 e = lambda s: html.escape(str(s), quote=True)
+VER = hashlib.md5((ROOT / "assets/style.css").read_bytes() + (ROOT / "assets/recipe.js").read_bytes()).hexdigest()[:8]
 
 
 def eur(v):
@@ -74,7 +75,7 @@ def page(title, desc, body, root, path, extra_head=""):
 <meta property="og:type" content="website">
 {canon}
 {FONTS}
-<link rel="stylesheet" href="{root}assets/style.css">
+<link rel="stylesheet" href="{root}assets/style.css?v={VER}">
 {extra_head}
 </head>
 <body>
@@ -88,7 +89,7 @@ def page(title, desc, body, root, path, extra_head=""):
   </main>
   <footer class="site">© {e(site['name'])} · Οι τιμές υλικών ενημερώθηκαν: {e(UPDATED)}</footer>
 </div>
-<script src="{root}assets/recipe.js" defer></script>
+<script src="{root}assets/recipe.js?v={VER}" defer></script>
 </body>
 </html>
 """
